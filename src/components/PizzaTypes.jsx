@@ -37,9 +37,21 @@ class PizzaTypes extends React.Component {
           title="Cheezy Pizza"
           text="Some quick example text to build on the card title and make up the bulk of the card's content."
         />
-        <Items />
-        <Items />
-        <Items />
+        <Items
+          imgSrc="veg.jpg"
+          title="Vegetable Pizza"
+          text="Some quick example text to build on the card title and make up the bulk of the card's content."
+        />
+        <Items
+          imgSrc="fam.jpg"
+          title="Family Pizza"
+          text="Some quick example text to build on the card title and make up the bulk of the card's content."
+        />
+        <Items
+          imgSrc="pep.webp"
+          title="Peperoni Pizza"
+          text="Some quick example text to build on the card title and make up the bulk of the card's content."
+        />
       </div>
     );
   }
