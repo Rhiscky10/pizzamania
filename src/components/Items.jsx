@@ -2,6 +2,7 @@ import React from "react";
 
 class Items extends React.Component {
   render() {
+    console.log(this.props);
     return <div className="col-md-3">
 	<div className="card" style="width: 18rem;">
   <img src="cheese.jpg" height="200vh" className="card-img-top" alt="..."><h1>Cheezy Pizza</h1>
