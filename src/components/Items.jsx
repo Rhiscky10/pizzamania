@@ -5,7 +5,7 @@ class Items extends React.Component {
     console.log(this.props.imgSrc);
     return <div className="col-md-3">
 	<div className="card" style="width: 18rem;">
-  <imgSrc= {"cheese.jpg"} height="200vh" className="card-img-top" alt="..."><h1>{this.props.title}</h1>
+  <img src= {"cheese.jpg"} height="200vh" className="card-img-top" alt="..."><h1>{this.props.title}</h1>
   <div className="card-body">
     <p className="card-text">{this.props.text}</p>
   </div>
