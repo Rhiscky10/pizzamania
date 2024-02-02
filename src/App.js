@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Carousel from "./components/Carousel";
+import AboutPizza from "./components/About";
+import PizzaTypes from "./components/PizzaTypes";
+import Items from "./components/Items";
+import Footer from "./components/Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Navbar />
+        <Carousel />
+        <AboutPizza />
+        <PizzaTypes />
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;

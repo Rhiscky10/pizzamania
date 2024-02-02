@@ -1,0 +1,27 @@
+.navColor{
+	background-color: red !important;
+}
+.link-items{
+	color: #ffff !important;
+	padding: 30px;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+.img-fluid{
+	width: 3000px;
+	height: 90%;
+}
+#footer{
+	background-color: darkred;
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.para{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+
+}
